@@ -23,7 +23,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     //MARK: OPTIONS
     @IBAction func setDefaultLabelText(_ sender: Any) {
-//        mealNameLabel.text = "Default Text"
+        mealNameLabel.text = "Default Text"
     }
     
     //MARK: UITextFieldDelegate
