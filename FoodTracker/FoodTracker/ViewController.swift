@@ -12,7 +12,7 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
     
     //MARk: Properties
     
-    @IBOutlet weak var mealNameLabel: UILabel!
+    @IBOutlet weak var carNameLabel: UILabel!
     @IBOutlet weak var ntf: UITextField!
     @IBOutlet weak var photoImageView: UIImageView!
     
@@ -44,7 +44,7 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
     }
     
     @IBAction func setDefaultLabelText(_ sender: Any) {
-        mealNameLabel.text = "Default Text"
+        carNameLabel.text = "Tesla Model 3"
     }
     
     
@@ -79,7 +79,7 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
     }
     
     func textFieldDidEndEditing(_ textField: UITextField) {
-        mealNameLabel.text = textField.text
+        carNameLabel.text = textField.text
 
     }
     
